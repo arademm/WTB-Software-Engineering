@@ -1,3 +1,4 @@
+/*
 #mapsection {
   width: 50%;
   height: auto;
@@ -11,7 +12,7 @@
 
 #Benin {
   /* fill: url("maps/Flag_of_Benin.svg"); */
-  fill: #00baba;
+  /*fill: #00baba;
 }
 
 #Nigeria {
@@ -37,6 +38,7 @@
 path {
   fill: #1da1f2;
 }
+
 path:hover {
   fill: purple;
   stroke: red;
@@ -48,14 +50,7 @@ path:hover {
   height: 200px;
   position: relative;
 }
-
-.eventSign {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
+*/
 
 /* Styling for Testimonial slides*/
 /* Slideshow container */
