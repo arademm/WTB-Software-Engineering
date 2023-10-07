@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WTB SD 3.0 COOKBOOK - Ordering Page</title>
+    <style>
+        /* Add your inline CSS here */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .meal-container {
+            display: flex;
+            align-items: center;
+            margin: 20px;
+        }
+        .meal-details {
+            flex: 1;
+        }
+        .meal-image {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Page One Content -->
+    <h1>WTB SD 3.0 COOKBOOK - Ordering Page</h1>
+    <div class="meal-container">
+        <div class="meal-details">
+            <h2>Spaghetti Bolognese</h2>
+            <p>Time: 30 minutes</p>
+            <p>Cost: $12.99</p>
+        </div>
+        <div class="meal-image">
+            <img src="spaghetti.jpg" alt="Spaghetti Bolognese">
+        </div>
+        <input type="radio" name="meal" value="spaghetti"> Order
+    </div>
+
+    <!-- Repeat similar sections for other meal choices -->
+
+    <button onclick="goToPageTwo()">Order Now</button>
+
+    <script>
+        // JavaScript to navigate to Page Two
+        function goToPageTwo() {
+            window.location.href = "page_two.html";
+        }
+    </script>
+</body>
+</html>
